@@ -1,0 +1,3 @@
+player_back = 32 0 32 32
+player_front = 32 32 32 32
+player_side = 0 0 32 64
