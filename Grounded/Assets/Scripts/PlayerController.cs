@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-	Vector2 pos;
+	Vector3 pos;
 	float speed = 3.0f;
 
 	void Start () {
@@ -13,17 +13,17 @@ public class PlayerController : MonoBehaviour {
 
 	void Update () {
 		if(Input.GetKey(KeyCode.A) && transform.position == pos) {
-			pos += Vector2.left;
+			pos += Vector3.left;
 		}
 		if(Input.GetKey(KeyCode.D) && transform.position == pos) {
-			pos += Vector2.right;
+			pos += Vector3.right;
 		}
 		if(Input.GetKey(KeyCode.W) && transform.position == pos) {
-			pos += Vector2.up;
+			pos += Vector3.up;
 		}
 		if(Input.GetKey(KeyCode.S) && transform.position == pos) {
-			pos += Vector2.down;
+			pos += Vector3.down;
 		}
-		transform.position = Vector2.MoveTowards(transform.position, pos, Time.deltaTime * speed);
+		transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
 	}
 }
