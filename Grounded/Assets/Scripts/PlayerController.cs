@@ -5,13 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
 	Vector3 pos;
-	float speed = 3.0f;
+	float speed = 4.0f;
 
 	void Start () {
 		pos = transform.position;
 	}
 
-	void Update () {
+	void FixedUpdate () {
 		if(Input.GetKey(KeyCode.A) && transform.position == pos) {
 			pos += Vector3.left;
 		}
