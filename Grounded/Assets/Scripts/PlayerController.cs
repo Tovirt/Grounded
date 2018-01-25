@@ -4,26 +4,38 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-	Vector3 pos;
-	float speed = 4.0f;
+    private Rigidbody2D rb;
+	private Vector3 oldPos;
+	private Vector3 newPos;
+    public float speed = 4.0f;
 
 	void Start () {
-		pos = transform.position;
+        rb = GetComponent<Rigidbody2D>();      
 	}
 
-	void FixedUpdate () {
-		if(Input.GetKey(KeyCode.A) && transform.position == pos) {
-			pos += Vector3.left;
+    void Update () {
+        oldPos = transform.position;
+        if (Input.GetKey(KeyCode.A)) {
+            newPos = oldPos + Vector3.left;
 		}
-		if(Input.GetKey(KeyCode.D) && transform.position == pos) {
-			pos += Vector3.right;
+		if(Input.GetKey(KeyCode.D)) {
+            newPos = oldPos + Vector3.right;
 		}
-		if(Input.GetKey(KeyCode.W) && transform.position == pos) {
-			pos += Vector3.up;
+		if(Input.GetKey(KeyCode.W)) {
+            newPos = oldPos + Vector3.up;
 		}
-		if(Input.GetKey(KeyCode.S) && transform.position == pos) {
-			pos += Vector3.down;
+		if(Input.GetKey(KeyCode.S)) {
+			newPos = oldPos + Vector3.down;
 		}
-		transform.position = Vector3.MoveTowards(transform.position, pos, Time.deltaTime * speed);
+        transform.position = Vector3.MoveTowards(transform.position, newPos, Time.deltaTime * speed);
 	}
+
+    /*private void FixedUpdate()
+    {
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+
+        Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0.0f);
+        rb.velocity = movement * speed;
+    }*/
 }

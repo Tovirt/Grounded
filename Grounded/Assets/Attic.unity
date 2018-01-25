@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbda0ba72ce2d1d4e89c7636d02e7281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 4
 --- !u!50 &1075256281
 Rigidbody2D:
   serializedVersion: 4
@@ -399,7 +400,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1380549072}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 4ed79a1d5debadc409d343244c7ca59f, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
