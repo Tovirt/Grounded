@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: table_6
+  m_Name: stairs2_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300064, guid: 0fe56f735d06be6488026c1a91c1ba35, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 74d80a95dedc4f94790c6f53992a93cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
