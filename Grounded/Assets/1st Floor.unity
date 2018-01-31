@@ -7926,6 +7926,24 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
+  - first: {x: -6, y: 1, z: 0}
+    second:
+      m_TileIndex: 12
+      m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
+  - first: {x: -5, y: 1, z: 0}
+    second:
+      m_TileIndex: 11
+      m_TileSpriteIndex: 11
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_ObjectToInstantiate: {fileID: 0}
+      m_TileFlags: 1
+      m_ColliderType: 1
   - first: {x: 2, y: 1, z: 0}
     second:
       m_TileIndex: 19
@@ -15744,10 +15762,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 024563a39c1d3564da51cb1e05ee8c09, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 84940f9f1e802bb4489d7f331cb5299b, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 25f3756170ecb084a8a6db723e02278c, type: 2}
   - m_RefCount: 2
@@ -15795,10 +15813,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 61c60b5e23efe1a4a930644baeddb6c9, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: e5faa6142c6118a468cfcf0fd38d788b, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 653b200782ad913478d9e18aa282f603, type: 3}
   - m_RefCount: 2
@@ -15824,7 +15842,7 @@ Tilemap:
   - m_RefCount: 1612
     m_Data: {fileID: 21300000, guid: ef36922c06a2b7c4aaff6cdbbff8ec78, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1657
+  - m_RefCount: 1659
     m_Data:
       e00: 1
       e01: 0
@@ -15915,7 +15933,7 @@ Tilemap:
       e32: 0
       e33: 0
   m_TileColorArray:
-  - m_RefCount: 1724
+  - m_RefCount: 1726
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
