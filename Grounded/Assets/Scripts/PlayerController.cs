@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
     private Vector2 pointTowards;
     private BoxCollider2D bc2D;
     private RaycastHit2D intObj;
+	public bool canMove;
 
 	void Start () {
         bc2D = GetComponent<BoxCollider2D>();
@@ -18,6 +19,9 @@ public class PlayerController : MonoBehaviour {
 
     void Update () {
         //Movement of Player
+		if (!canMove) {
+			return;
+		}
         oldPos = transform.position;
         if (Input.GetKey(KeyCode.A)) {
             newPos = oldPos + Vector2.left/5;
