@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
     private Vector2 pointTowards;
     private BoxCollider2D bc2D;
     private RaycastHit2D intObj;
+    private bool isDone = true;
 	public bool canMove;
 
 	void Start () {
@@ -43,8 +44,10 @@ public class PlayerController : MonoBehaviour {
         }
         bc2D.enabled = true;
         // Calling Interaction
-        if (Input.GetKeyDown(KeyCode.Space)){
+        if (Input.GetKeyDown(KeyCode.Space) && isDone){
+            isDone = false;
             Interact(pointTowards);
+            isDone = true;
         }
     }
 

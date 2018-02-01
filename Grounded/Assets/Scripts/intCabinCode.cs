@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class intCabinCode : MonoBehaviour
 {
-
     // Use this for initialization
     void Start()
     {
@@ -13,7 +13,7 @@ public class intCabinCode : MonoBehaviour
 
     void Interaction()
     {
-        Debug.Log("You Destroyd the cabinet with a hammer");
+        Debug.Log("You Destroyd the cabinet");
         Destroy(gameObject);
     }
 }
