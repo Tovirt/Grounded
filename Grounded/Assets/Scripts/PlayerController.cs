@@ -38,9 +38,9 @@ public class PlayerController : MonoBehaviour {
 		}
         pointTowards = newPos - oldPos;
         bc2D.enabled = false;
-        if (!Physics2D.Linecast(oldPos, newPos))
+        if (!Physics2D.Linecast(oldPos, newPos) )
         {
-            transform.position = Vector3.MoveTowards(transform.position, newPos, Time.deltaTime * speed);
+            transform.position = Vector2.MoveTowards(transform.position, newPos, Time.deltaTime * speed);
         }
         bc2D.enabled = true;
         // Calling Interaction
