@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - intObject
+  - Teleport
   layers:
   - Default
   - TransparentFX

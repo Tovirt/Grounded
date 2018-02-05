@@ -246,8 +246,50 @@ Transform:
   m_Children:
   - {fileID: 1062934164}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &715104274
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4621787523825984, guid: 53da9498698280c46b035495a6380e7e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.16103372
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621787523825984, guid: 53da9498698280c46b035495a6380e7e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 4.3433824
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621787523825984, guid: 53da9498698280c46b035495a6380e7e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 8.053467
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621787523825984, guid: 53da9498698280c46b035495a6380e7e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621787523825984, guid: 53da9498698280c46b035495a6380e7e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621787523825984, guid: 53da9498698280c46b035495a6380e7e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621787523825984, guid: 53da9498698280c46b035495a6380e7e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621787523825984, guid: 53da9498698280c46b035495a6380e7e, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 53da9498698280c46b035495a6380e7e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1062934163
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +371,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+<<<<<<< HEAD
 --- !u!1 &1203236678
 GameObject:
   m_ObjectHideFlags: 0
@@ -23316,3 +23359,5 @@ Tilemap:
     m_DirtyIndex: 0
   - serializedVersion: 1
     m_DirtyIndex: 0
+=======
+>>>>>>> c9de54add756e8eb407e3f74277313c7bbe7c1fe

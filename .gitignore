@@ -27,3 +27,4 @@ ExportedObj/
 # Builds
 *.apk
 *.unitypackage
+*.ide
