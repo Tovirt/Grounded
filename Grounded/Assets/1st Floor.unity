@@ -5581,8 +5581,8 @@ Tilemap:
       m_ColliderType: 1
   - first: {x: -1, y: -6, z: 0}
     second:
-      m_TileIndex: 14
-      m_TileSpriteIndex: 14
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -15846,8 +15846,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 7418099a208991a4b8265e7eae471c57, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: a8fe826031351d247a190bb068c49a7a, type: 2}
   - m_RefCount: 1
@@ -15860,8 +15860,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 1ecc62f4a66fe50469a9e95eac95442b, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 25f3756170ecb084a8a6db723e02278c, type: 2}
-  - m_RefCount: 2
-    m_Data: {fileID: 11400000, guid: 571272e8c02cea141bdede3edb5e48aa, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 3956a111b6c3cf44baa4dd6e1d5736e3, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 40f5e16e7df3d4442abdc87981d23862, type: 2}
   - m_RefCount: 2
@@ -15897,8 +15897,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 0bed39e844d047a43a9e2144c1c1294f, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: 9d93813dd088c0b428fd0eaaee4eaf6d, type: 3}
   - m_RefCount: 1
@@ -15911,8 +15911,8 @@ Tilemap:
     m_Data: {fileID: 21300000, guid: 2fcfb1b2588fb9c44a1d9baa0dc68dca, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 653b200782ad913478d9e18aa282f603, type: 3}
-  - m_RefCount: 2
-    m_Data: {fileID: 21300100, guid: 0fe56f735d06be6488026c1a91c1ba35, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: 1c8dcaa2a9e8cc947b7d7816cfd35c8a, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 21300000, guid: c682cd0e1d250214a965978eb84c404e, type: 3}
   - m_RefCount: 2
